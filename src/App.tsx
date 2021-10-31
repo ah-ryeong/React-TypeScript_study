@@ -2,6 +2,8 @@ import React from 'react';
 import Counter from './Counter';
 import Greetings from './Greetings';
 import MyForm from './MyForm';
+import ReducerCounter from './ReducerCounter';
+import ReducerSample from './ReducerSample';
 
 function App() {
   const onClick = (name: string) => {
@@ -17,6 +19,8 @@ function App() {
       <Greetings name="리액트" onClick={onClick}/>
       <Counter />
       <MyForm onSubmit={onSubmit} />
+      <ReducerCounter />
+      <ReducerSample />
     </>
   );
 }
